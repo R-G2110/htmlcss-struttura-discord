@@ -3,3 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.debug {
+  background-color: rgba(255, 0, 0, .2);
+  border: 1px solid black;
+  min-height: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+.sa {
+  justify-content: space-around;
+}
+
+.sb {
+  justify-content: space-between;
+}
+
+.container {
+  margin: 10px;
+  width: 80%;
+  max-width: 1200px;
+  /* min-width: ; */
+
+}
+
+/* Header */
+.nav-menu {
+  list-style: none;
+}
+
