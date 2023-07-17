@@ -31,7 +31,7 @@
 }
 
 .container {
-  margin: 10px;
+  margin: 20px auto;
   width: 80%;
   max-width: 1200px;
   /* min-width: ; */
@@ -51,5 +51,19 @@
   height: 300px;
 }
 
+.container .image {
+  width: 750px;
+  height: 320px;
+}
 
+.container .text {
+  width: 500px;
+  height: 320px;
+}
 
+.even{
+  background-color: gray;
+}
+.even .image{
+  order: 1;
+}
